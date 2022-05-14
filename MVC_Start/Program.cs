@@ -14,7 +14,8 @@ namespace MVC_Start
   {
     public static void Main(string[] args)
     {
-      BuildWebHost(args).Run(); // this may change //more stuff
+      // Caleb's change for the assignment.
+      BuildWebHost(args).Run(); // this may change
     }
 
     public static IWebHost BuildWebHost(string[] args) =>
