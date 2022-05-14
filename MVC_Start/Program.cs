@@ -21,6 +21,6 @@ namespace MVC_Start
     public static IWebHost BuildWebHost(string[] args) =>
         WebHost.CreateDefaultBuilder(args)
             .UseStartup<Startup>()
-            .Build();
+            .Build(); //Raquel was here
   }
 }
